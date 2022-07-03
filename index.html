@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiro ao Alvo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src = "js/script.js" defer></script>
+</head>
+<header>
+    <div class = "nickname">
+        <label for="nome">Nome de Usuário</label>
+        <input type="text" id="nome" placeholder="Digite seu nome de usuário: " autofocus>
+        <input type="button" value="Salvar" onclick="nickname()">
+    </div>
+</header>
+    
+<body>
+    <div class = "container">
+        <button  type = "button" class = "startBtn">Iniciar </button>
+        <img src = "images/cursor02.png" alt = "Crosshair" class = "cursor" />
+        <img src="images/bloodshoot.png" alt="Blood Spot" class="bloodSpot" />
+        <audio src="sound/evangelion.mp3" alt="Evangelion" class="audio"></audio>
+    </div>
+
+    <div class = "timer">
+        <h1 id='timer'>10:00</h1>
+    </div>
+
+    
+  
+
+</body>
+</html>
